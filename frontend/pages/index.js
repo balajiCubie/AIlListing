@@ -44,8 +44,8 @@ const HomePage = () => {
     class="bg-neutral-50 py-5 px-6 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100">
        <div className="writer">
     <div className="writer-text">
-    "Cuvisoft Tools Collects & Organizes All The Best <br/>
-    AI Tools So YOU Too Can Become Superhuman!"
+    Cuvisoft Tools Collects & Organizes All The Best <br/>
+    AI Tools So YOU Too Can Become Superhuman!
     </div>
 </div>
     <h1 className="mb-3 text-3xl font-bold "></h1>
