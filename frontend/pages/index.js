@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image'  
   
 const HomePage = () => {
   return (
@@ -8,7 +9,8 @@ const HomePage = () => {
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" class="flex items-center">
-        <img src="https://cuvisoft.com/wp-content/uploads/2023/01/cropped-logo.png" class="h-16 mr-1" alt="cuvisoft Logo" />
+        <Image src="/aiCuvisoft.png" width={56}
+        height={30} alt="cuvisoft Logo" />
         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cuvisoft</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
